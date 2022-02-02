@@ -2,7 +2,7 @@ import requests
 import urllib.parse
 
 
-class Spotify(object):
+class SpotifyClient(object):
     def __init__(self, api_token):
         self.api_token = api_token
 
